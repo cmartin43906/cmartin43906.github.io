@@ -1,5 +1,5 @@
 body {
-    background-color: lightgreen;
+    background-color: burlywood;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -7,15 +7,31 @@ body {
     display:flex;
     padding:10px;
     margin:10px;
-    background:lightgray
+    background:wheat;
+    border-radius: 5px;
 }
 
 .assignment img {
     width:200px;
-    padding:10px;
+    margin: 10px;
+    border: 4px solid sienna;
+}
+
+.assignment img:hover {
+    border: 4px solid peru;
 }
 
 h1 {
-    color: brown;
+    color: saddlebrown;
     text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: sienna;
+}
+
+a:hover {
+    color: peru;
+
 }
